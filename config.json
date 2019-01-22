@@ -1,0 +1,6 @@
+{ 
+    "token"  : "EnterYourOwnBotID",
+    "prefix" : "?",
+    "ownerID": "EnterYourOwnUserID",
+    "nopermissionerror":"Sorry you do not have permission to access this command"
+  }
