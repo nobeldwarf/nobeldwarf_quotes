@@ -126,7 +126,7 @@ bot.on('message', (message) => {
         if(message.content.startsWith(config.prefix + "info"))message.channel.send("Creators: " + package.authors + " , " + "Version: " + package.version);
             
         // Commands Command
-        if (message.content.toLowerCase() == config.prefix + 'commands'){message.channel.send("The following commands can be used with this bot. ```?add \n!commands \n?help \n?info \n?list \n?quote \n?remove \n?sorta \n?random```")};
+        if (message.content.toLowerCase() == config.prefix + 'commands'){message.channel.send("The following commands can be used with this bot. ```?add \n?commands \n?help \n?info \n?list \n?quote \n?remove \n?sorta \n?random```")};
 
         // Random Quote
         if (message.content.toLowerCase() == config.prefix + 'random'){message.channel.send(fetchRandom(quotes))};
