@@ -1,11 +1,11 @@
 {
-  "name": "nobeldwarf_quotes",
-  "version": "2.2",
+  "name": "dwarf_quotes",
+  "version": "3.0",
   "description": "Simple Quote Bot",
   "main": "bot.js",
   "authors": "NobelDwarf & SorcererGrey",
   "dependencies": {
-    "discord.js": "^11.3.2",
+    "discord.js": "^12.3.1",
     "discordv8": "^8.4.2"
   }
 }

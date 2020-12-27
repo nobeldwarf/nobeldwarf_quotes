@@ -1,6 +1,6 @@
 module.exports = {
   apps : [{
-    name: 'NobelDwarf_Quotes',
+    name: 'Dwarf_Quotes',
     script: 'bot.js',
 
     // Options reference: https://pm2.io/doc/en/runtime/reference/ecosystem-file/
@@ -8,7 +8,7 @@ module.exports = {
     instances: 1,
     autorestart: true,
     watch: true,
-    ignore_watch : ["quotes.json", "quotes_old.json"],
+    ignore_watch : ["quotes", "users"],
     max_memory_restart: '1G',
     env: {
       NODE_ENV: 'development'
